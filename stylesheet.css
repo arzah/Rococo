@@ -1,0 +1,77 @@
+/* style for opening page header */
+h1 {
+    text-align: center;
+    padding: 300px 100px 300px 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 72px;
+    color: white;
+}
+
+/* style for border surrounding header */
+.border {
+    border-style: double;
+    border-color: gold;
+    border-width: 15px;
+}
+
+/* navigation bar styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Dancing Script', cursive;
+    background-color: #d5e1d5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: -8px;
+
+
+}
+
+/*positions the nav links */
+li {
+    float: left;
+    font-size: 30px;
+}
+
+/* gets rid of underlined links and styles links */
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+
+}
+
+/* changes background colour of link when hovering */
+li a:hover:not(.active) {
+    background-color: silver;
+    color: white;
+}
+
+/* styles the body of webpage, i.e background colour and fonts */
+
+body {
+    background-color: #eacacb;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* styles the h4 headers */
+h4 {
+    font-size: 40px;
+}
+
+/* styles the links in the birth of rococo */
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e2b3e3;
+}
